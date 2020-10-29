@@ -11,7 +11,7 @@ input A {
 }
 
 input B {
-  c: C
+  c: C # if you comment out this line, it will build
   b: B
 }
 
