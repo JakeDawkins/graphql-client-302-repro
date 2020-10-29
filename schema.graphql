@@ -3,7 +3,7 @@ type Query {
 }
 
 type Mutation {
-  run(input: [A!]): Boolean
+  run(input: A): Boolean
 }
 
 input A {

@@ -1,7 +1,3 @@
-# mutation TestCircularMutation($myInput: A) {
-#   run(input: $myInput)
-# }
-
-mutation TestCircularMutation($input: A!) {
-  run(input: [$input])
+mutation TestCircularMutation($input: A) {
+  run(input: $input)
 }
