@@ -1,0 +1,20 @@
+type Query {
+  test: Boolean
+}
+
+type Mutation {
+  run(input: [A!]): Boolean
+}
+
+input A {
+  b: B
+}
+
+input B {
+  c: C
+  b: B
+}
+
+input C {
+  c: C
+}

@@ -1,0 +1,13 @@
+[package]
+name = "circular-error-reprod"
+version = "0.1.0"
+authors = ["Jake Dawkins <dawkinsjh@gmail.com>"]
+edition = "2018"
+include = ["./schema.graphql"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+graphql_client = "0.9.0"
+serde = "1"
+serde_json = "1.0.57"
